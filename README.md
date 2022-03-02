@@ -8,3 +8,9 @@ When the program is initiated in the command line, the user will be prompted wit
 The program will then go through the other people in your team and ask for their descriptions. 
 Once these descriptions are filled out the program will take that information and generate an HTML file with it displaying the information with cards creating specific cards for 
 each person and creating links to their information. 
+
+
+Classes: Employee, Manager, Engineer, Intern 
+
+Uses the Inquirer Package and Jest Package and NPM
+

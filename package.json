@@ -1,26 +1,28 @@
 {
-    "name": "teamprofilegenerator",
+    "name": "team-profile-generator",
     "version": "1.0.0",
-    "description": "a node application that generates an HTML page for a team profile using inputs and key value pairs",
+    "description": "a node application to create a team profile generator ",
     "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jpd61/Team-Profile-Generator.git"
+        "type": "git",
+        "url": "https://github.com/RobertKelly03/Team-Profile-Generator"
     },
-    "author": "Joseph DeWoody",
+    "author": "Nicole Wallace",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/jpd61/Team-Profile-Generator/issues"
+        "url": "https://github.com/RobertKelly03/Team-Profile-Generator/issues"
     },
-    "homepage": "https://github.com/jpd61/Team-Profile-Generator",
+    "homepage": "https://github.com/RobertKelly03/Team-Profile-Generator/blob/main/README.md",
+    "devDependencies": {
+        "jest": "^26.0.1"
+    },
     "dependencies": {
-      "axios": "^0.19.2",
-      "inquirer": "^7.3.3",
-      "util": "^0.12.3"
-    },
-    "keywords": []
-  }
-  
+        "inquirer": "^7.3.3"
+    }
+}
